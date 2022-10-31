@@ -2,7 +2,9 @@
 #3주차
 
 strVal = 'data science'               # 문자열 변수
+
 nVal = 12345                          # 정수형 변수
+
 fVal = 1.2                            # 실수형 변수
 lVal = ['data', 'science']            # 리스트
 dVal = {'lecture' : 'data science'}   # 딕셔너리
