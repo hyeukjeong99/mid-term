@@ -97,7 +97,6 @@ print(lnData[2:4])      # lnData[4]에 저장된 5는 출력되지 않음
 lnData = [1,2,3,4,5]
 lstrData=['a', 'b', 'c']
 
-# 두 개의 서로다른 자료형을 가진 리스트를 병합
 lnData + lstrData
 lnData.append(10)   # 10을 맨 뒤에 추가
 lnData
@@ -362,7 +361,6 @@ plt.plot(value[:,0], lw= 1.5)
 plt.plot(value[:,1], lw= 1.5)
 plt.plot(value, 'ro')
 plt.grid(True)
-# plt.legend(loc=0)
 plt.xlabel('index')
 plt.ylabel('value')
 plt.title('Line Plot')
